@@ -5,7 +5,7 @@
 
     // Convert delayValue to a number (it comes as a string)
     // The delay is in milliseconds, so we multiply by 1000
-    const delayInMilliseconds = delayValue * 1000; 
+    const delayInMilliseconds = delayValue ; 
 
     setTimeout(() => {
         //console.log("Text:", textValue);
